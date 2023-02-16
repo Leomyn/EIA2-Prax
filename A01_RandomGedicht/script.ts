@@ -1,6 +1,6 @@
-let subjects: string[] = ["Harry","Hermine","Ron","Snape"];
-let verbs: string[] = ["studiert","hasst","zaubert","zerstört"];
-let objects: string[] = ["Zaubertränke","Lupin","Hogwarts","Dementoren"];
+let subjects: string[] = ["Harry","Hermine","Ron","Snape","Trump","Dumbledore"];
+let verbs: string[] = ["studiert","hasst","zaubert","zerstört","annektiert","liebt"];
+let objects: string[] = ["Zaubertränke","Lupin","Hogwarts","Dementoren","Putin","den Grimm"];
 console.log(subjects);
 console.log(verbs);
 console.log(objects);
