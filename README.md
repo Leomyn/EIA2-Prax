@@ -3,7 +3,7 @@
 	
 Prax: L01_Zufallsgedicht - Abgeschlossen - 45 Minuten
  
-### L02_Events
+### L02_Events -  80 Minuten 
 
 Prax: L02_EventInspector
  
