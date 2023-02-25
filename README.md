@@ -3,15 +3,15 @@
 	
 Prax: L01_Zufallsgedicht - Abgeschlossen - 45 Minuten
  
-### L02_Events -  80 Minuten 
+### L02_Events -  80 Minuten/Übung: -
 
 Prax: L02_EventInspector
  
-### L03_FormElements
+### L03_FormElements - 60 Minuten/Übung: -
  
 Prax: L03_Einkaufsliste_Formular
  
-### L04_DataStructures
+### L04_DataStructures  - 60 Minuten/Übung: - 
  
 Prax: L04_Einkaufsliste_Datenstruktur
  
