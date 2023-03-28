@@ -28,6 +28,7 @@ var Gedicht;
             verse += word[0] + " ";
             console.log(verse);
         }
+        return;
     }
     getVerse(subjects, verbs, objects);
 })(Gedicht || (Gedicht = {}));

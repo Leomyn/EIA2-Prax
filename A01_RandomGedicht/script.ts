@@ -15,10 +15,10 @@ namespace Gedicht {
     //console.log(verbs);
     //console.log(objects);
 
-    function getVerse(_arr1: string[], _arr2: string[], _arr3: string[]) {
+    function getVerse(_arr1: string[], _arr2: string[], _arr3: string[]): string {
         for (let i = _arr1.length; i >= 1; i--) {
             let verse: string = "";
-            let nr = Math.random() * _arr1.length;
+            let nr: number = Math.random() * _arr1.length;
             nr = Math.floor(nr);
             let word = _arr1.splice(nr, 1);
             verse = word[0] + " ";
@@ -29,8 +29,10 @@ namespace Gedicht {
             word = _arr3.splice(nr, 1);
             verse += word[0] + " ";
             console.log(verse);
+
         }
+        return;
     }
-    getVerse(subjects,verbs,objects);
+    getVerse(subjects, verbs, objects);
 }
 
