@@ -1,0 +1,28 @@
+body {
+    display: block;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+    
+    
+    #tasklist, #inProgress{
+        border: thin solid black;
+        margin-left: 20px;
+}
+
+#task {
+    border: thin solid black;
+    margin: 10px;
+}
+
+fieldset{
+    display: inline;
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 50px;
+}
+
+h1{
+    grid-column: span 3;
+}
