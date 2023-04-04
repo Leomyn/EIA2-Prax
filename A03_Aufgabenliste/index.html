@@ -17,6 +17,7 @@
         <input type="text" name="task" placeholder="type in task"  />
         <input type="date" name="date" placeholder="when?" />
         <input type="datetime" name="datetime" placeholder="time"/>
+        <input type="text" name="comment" placeholder="comment"/>
         <select name="Select" id="select">
             <option value="none" selected>select User</option>
 			<option value="User1">User1</option>
@@ -24,12 +25,14 @@
 			<option value="User3">User3</option>
 			<option value="User4">User4</option>
 		</select>
-        <button type="submit" >send</button>
+        <button type="submit" id="sendBtn" >send</button>
     </fieldset>
     <div id="tasklist">
         <h3> Tasklist </h3>
         <div id="task">
-            Do something    due: 10.10.2020 - 20:15
+            <p>Do something </p>   
+            <p>due: 10.10.2020 - 20:15 </p>
+            <p>comment: do it like that</p>
             <input type="text" name="comment" placeholder="comment"> 
             <select name="Select" id="select">
                 <option value="none" selected>select User</option>
@@ -38,15 +41,17 @@
                 <option value="User3">User3</option>
                 <option value="User4">User4</option>
             </select>
-            <button> comment</button>
-            <button>set in Progress</button>
+            <button id="commentBtn"> comment</button>
+            <button id="progressBtn">set in Progress</button>
         </div>
     </div>
     <div id="inProgress">
         <h3> in Progress </h3>
         <div id="task"> 
-        Do something due: 09.10.2020 - 18:00
-        comment <button>Done</button>
+        <p>Do something </p>
+        <p>due: 09.10.2020 - 18:00</p>
+        <p>comment: do it like that </p>
+        <button id="deleteBtn">Done</button>
         </div>
     </div>
     
